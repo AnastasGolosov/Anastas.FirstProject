@@ -24,6 +24,7 @@ public class DecryptBruteForce {
         ) {
             double probability=actualProbabilities.get(c)/totalLetters;
             actualProbabilities.put(c,probability);
+
         }
         return actualProbabilities;
     }
@@ -88,6 +89,7 @@ public class DecryptBruteForce {
     private Map<Character, Double> expectedProbabilities = createExpectedProbabilities();
     public void BruteForce(){
         int shift;
+        //??
         try (BufferedReader reader = Files.newBufferedReader(Paths.get(encryption.encryptedFilePath), StandardCharsets.UTF_8)) {
             try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(encryption.decryptedFilePath), StandardCharsets.UTF_8)) {
                 String line;
