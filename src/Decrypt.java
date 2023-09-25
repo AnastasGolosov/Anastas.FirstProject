@@ -19,7 +19,7 @@ public class Decrypt {
                 String decryptText = decryptCaesar(line, shift);
                 writer.write(decryptText);
             }
-
+//
         } catch (IOException e) {
             e.printStackTrace();
         }

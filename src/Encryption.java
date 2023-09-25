@@ -10,6 +10,7 @@ public class Encryption {
     public String sourceFilePath = "MyText.txt";
     public String encryptedFilePath = "EncryptedText.txt";
     public String decryptedFilePath = "DecryptedText.txt";
+    //
 //    public Map<Character, Integer> TextAnalyzer(String Text) {
 //        Map<Character, Integer> letterFrequency = new HashMap<>();
 //        try (BufferedReader reader = new BufferedReader(new StringReader(Text))) {
