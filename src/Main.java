@@ -14,6 +14,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int start = scanner.nextInt();
         switch (start) {
+            //
             case 1 -> {
                 System.out.println("Укажите шаг шифрования");
                 encryption.encryptText();
